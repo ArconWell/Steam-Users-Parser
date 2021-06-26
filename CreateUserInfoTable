@@ -1,0 +1,5 @@
+CREATE TABLE UserInfo(
+	ID INTEGER PRIMARY KEY,
+	Avatar VARCHAR(64),
+	AvatarUpdateDate VARCHAR(29)
+)
