@@ -3,7 +3,7 @@ import requests
 import concurrent.futures
 import psycopg2
 
-DEVELOPER_KEY = "EA932842FAF3476A795633264708F7A6"
+DEVELOPER_KEY = "YOUR_STEAM_WEB_API_KEY"
 STEAM_USERS_COUNT = 110000  # 1225000000  # there are less than 1 225 000 000 accounts registered in steam
 START_USER_INDEX = 0  # index which is going to be the first in the loop
 USERS_PER_REQUEST = 100  # users ids per one request
@@ -11,7 +11,7 @@ CONNECTIONS = 10
 
 DATABASE = "steam_users"
 USER = "postgres"
-PASSWORD = "Av99052824"
+PASSWORD = "YOUR_DATABASE_PASSWORD"
 HOST = "localhost"
 PORT = "5432"
 

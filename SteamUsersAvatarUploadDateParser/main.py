@@ -7,7 +7,7 @@ CONNECTIONS = 10
 
 DATABASE = "steam_users"
 USER = "postgres"
-PASSWORD = "Av99052824"
+PASSWORD = "YOUR_DATABASE_PASSWORD"
 HOST = "localhost"
 PORT = "5432"
 LIMIT = 1000
